@@ -1,7 +1,9 @@
+<!DOCTYPE html5>
 <html>
     <head>
         <title>Login</title>
         <meta charset="utf-8">
+        <meta name="author" content="João Otávio Oliveira Castro">
         <meta property="og:type" content="website" />
         <meta property="og:title" content="login" />
         <link rel="stylesheet" type="text/css" href="../styles/login.css">
@@ -15,12 +17,9 @@
             <div id="top-form">
                 <h1>Faça Login</h1>
                 <p>Não tem uma conta? Faça seu cadastro:</p>
-                <div style="">
-                <a href="#" class="button">Cadastre-se</a>
-                </div>
+                <a href="#" id="btn-cadastro">Cadastre-se</a>
             </div>
-            <div style="padding-bottom: 15px;
-            padding-top: 1px;">
+            <div id="bot-form">
             <form action="#" style="text-align: center;">
                 <div>
                     <label>Nome de Usuário</label></br>
@@ -28,12 +27,20 @@
                 </div>
                 <div>
                     <label>Senha</label></br>
-                    <input type="text" placeholder="senha">
+                    <input type="password" placeholder="senha">
                 </div>
+                <div>
+                    <input type="checkbox" id="manter" name="manter">
+                    <label for="manter" id="lman">Lembrar login</label>
+                </div>
+
             </form>
             <div style="text-align: center;">
-                <button type="submit">Login</button>
+                <button type="submit" id="btn-login">Login</button>
             </div>    
+            <div>
+                <a href="#" id="forgot">Esqueceu a senha?</a>
+            </div>
         </div>
         </div>
     </body>
