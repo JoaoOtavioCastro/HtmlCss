@@ -7,40 +7,43 @@
         <meta property="og:type" content="website" />
         <meta property="og:title" content="login" />
         <link rel="stylesheet" type="text/css" href="../styles/login.css">
+        <link rel="stylesheet" type="text/css" href="../styles/geral.css">
         
     </head>
     <body>
         <div id="base">
             <h1 style="text-align: center;"></h1>            
         </div>
-        <div id="base-form">
-            <div id="top-form">
+        <div class="base-form">
+            <div class="top-form">
                 <h1>Faça Login</h1>
                 <p>Não tem uma conta? Faça seu cadastro:</p>
-                <a href="#" id="btn-cadastro">Cadastre-se</a>
+                <a href="../cadastro.html" class="btn-alter">Cadastre-se</a>
             </div>
-            <div id="bot-form">
+            <div class="bot-form">
             <form action="#" style="text-align: center;">
+                <div style="width: 100%;">
                 <div>
                     <label>Nome de Usuário</label></br>
-                    <input type="text" placeholder="username">
+                    <input type="text" placeholder="username" class="answer">
                 </div>
                 <div>
                     <label>Senha</label></br>
-                    <input type="password" placeholder="senha">
+                    <input type="password" placeholder="senha" class="answer">
                 </div>
                 <div>
                     <input type="checkbox" id="manter" name="manter">
                     <label for="manter" id="lman">Lembrar login</label>
                 </div>
-
+            </div>
             </form>
             <div style="text-align: center;">
-                <button type="submit" id="btn-login">Login</button>
+                <button type="submit" class="btn-main">Login</button>
             </div>    
-            <div>
-                <a href="#" id="forgot">Esqueceu a senha?</a>
-            </div>
+            
+        </div>
+        <div>
+            <a href="#" id="forgot">Esqueceu a senha?</a>
         </div>
         </div>
     </body>

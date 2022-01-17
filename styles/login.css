@@ -1,70 +1,12 @@
-
-#base-form{
-    width: relative;
-    border-radius: 15px;
-    box-shadow: 0 10px 34px -15px rgb(0 0 0 / 24%);
-    height: -webkit-fill-available;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-#top-form{
-    color: #fff;
-    background: linear-gradient(135deg,#f75959 0%,#f35587 100%);
-    text-align: center;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    font-family: "Lato",Arial,sans-serif;
-    padding-bottom: 5%;
-    padding-top: 2%;
-}
-#btn-cadastro{
-    background: #fff;
-    color: #000;
-    padding: 10px 20px;
-    border-radius: 50px;
-    display: inline-block;
-    text-align: center;
-    font-family: "Lato",Arial,sans-serif;
-}
-input{
-    font-family: "Lato",Arial,sans-serif;
-    border: 1px solid transparent;
-    background: #f8f9fd;
-    color: #000;
-    font-size: 17px;
-    padding: 10px 165px;
-    border-radius: 50px;
-    text-align: center;
-}
-#btn-login{
-    background: linear-gradient(135deg,#f75959 0%,#f35587 100%);
-    color: #fff;
-    font-size: 15px;
-    padding: 10px 20px;
-    border-radius: 50px;
-    text-align: center;
-    font-family: "Lato",Arial,sans-serif;
-}
-label{
-    font-family: "Lato",Arial,sans-serif;
-    font-size: larger;
-}
 #manter{
-    position: relative;
-    right: 30%;
+ align-self: flex-start;   
 }
 #lman{
-    position: relative;
-    right: 27%;
+    align-self: flex-start;
     font-size: medium;
 }
 #forgot{
-    position: relative;
-    margin-left: 4%;
+    align-self: flex-start;
     color: #f35587;
-}
-#bot-form{
-    padding-top: 10%;
+    padding-left: 8%;
 }
